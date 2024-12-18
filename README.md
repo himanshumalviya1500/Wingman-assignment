@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+# Wingman Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Wingman Dashboard is a modern, responsive web application built with React, and Tailwind CSS. It provides a comprehensive interface for managing consultations, orders, and sales data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Responsive Design**: Fully responsive layout that works on desktop, tablet, and mobile devices.
+- **Real-time Data Visualization**: Interactive charts and graphs for sales and consultation data.
+- **Order Management**: Detailed order table with sorting and filtering capabilities.
+- **Performance Metrics**: At-a-glance view of key performance indicators.
+- **Forecasting**: AI-driven sales and consultation forecasts.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- Tailwind CSS
+- Recharts for data visualization
+- Shadcn UI for pre-built components
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Getting Started
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Prerequisites
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Node.js (v14 or later)
+- npm or yarn
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Installation
+
+1. Clone the repository:
+
+      ```https://github.com/himanshumalviya1500/Wingman-assignment```
